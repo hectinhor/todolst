@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  
+ <center><h1>To-Do list </h1>
+ </center>
+  <body>
+    <center>
+      <form id="todoform">
+      <div>
+      	<div>
+          
+          <label name="newitem">Agrege su tarea </label>
+        </div>
+          <input type="text" name="newitem" id="newitem" placeholder="Nueva tarea"  />
+          <button type="button" value="Add" id="todo"  onclick="todolist()"> guardar</button>
+
+      </div>
+      
+      </form>
+      <ul id="tdlist"> </ul>
+      <button type="button" value="delete" id="eliminar"  > Eliminar</button>
+      <button type="button" value="edit" id="editar"  >Editar </button>
+    </center>	
+    <script src="js/script"></script>
+  </body>
+</html>

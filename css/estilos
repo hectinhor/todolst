@@ -1,0 +1,74 @@
+ 
+
+ body 
+{
+	  background: #aaaaa2;
+    font-family: fantasy;
+}
+
+ #editar
+ {
+    width: auto;
+    background-color: #aba434;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-size: 15px;
+ }
+ #eliminar  /* boton eliminar*/
+ {
+    width: auto;
+    background-color: #aba434;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-size: 15px;
+ }
+
+  form 
+  {
+    width: 280px;
+    background: #333;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px 20px;
+    font-family: arial 20px; 
+  }
+  #newitem /* campo de texto*/
+  {
+    width: 160px;
+    background-color: #aba434;
+  }
+  #tareas
+  {
+   
+    width: 280px;
+    background: #333;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px 20px;
+    font-family: inherit 20px; )
+  }
+  ul
+
+{
+    border: #fff476 solid;
+    width: 280px;
+    height: 200px;
+    background: #333;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px 20px;
+    font-family: arial ; ) 
+    font-size: 15px;
+}
+  #todolist 
+  {
+    width: 280px;
+    margin: 10px 10px;
+    border-radius: 2px;
+    list-style: none;
+    background: #eee;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  

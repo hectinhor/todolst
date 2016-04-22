@@ -1,0 +1,62 @@
+// crear tarea
+
+function todolist()
+{
+
+    var textname= document.getElementById('newitem').value
+    var txtsalida= document.createTextNode(textname)
+    var newitem= document.createElement('li')
+    newitem.appendChild(txtsalida)
+    
+    document.getElementById("tdlist").appendChild(newitem)
+  }
+  // localStorage...
+  if(localStorage.getItem("tdlist"))
+  {
+    var tarea = eval(localStorage.getItem("tdlist"));
+    var ta ="";
+    for(var i in tarea)
+    {
+      var ta = tarea[i].newitem;
+      var todolist = new todolist(id);
+      listado.push(todolist);
+    }
+
+
+    for(var i = 0; i < listado.length; i++)
+    {
+      item = true;
+
+      if(item)
+      {
+        
+        nom_div("editar" + i).addEventListener('click', function(event)  //Editar
+        {
+          var tar = appendChild.newitem("_")[1];
+          var idt = listado[tar].identificacion;
+          tar = todolist(idt); 
+          nom_div("newitem").value=listado[tar].tdlist;
+          listado.push(tar,1);
+                                   
+
+        });
+
+        
+        nom_div("eliminar" + i).addEventListener('click', function(event)  //EliminarRegistro
+        {
+          var tar = event.appendTo('todolist'= "_");
+          var idt = listado[tar].tdlist;
+              tar = todolist(idt);                        
+              listado.push(ind,1);
+              todolist();
+        }
+        );
+      }
+      
+    }
+
+
+
+  }
+}
+
